@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing the Header 1`] = `
+<header>
+  <h1>
+    Expensifhhhjy
+  </h1>
+  <[object Object]
+    activeClassName="active-class"
+    exact={true}
+    to="/"
+  >
+     Home
+  </[object Object]>
+  <[object Object]
+    activeClassName="active-class"
+    to="/create"
+  >
+     Add 
+  </[object Object]>
+  <[object Object]
+    activeClassName="active-class"
+    to="/help"
+  >
+     Help 
+  </[object Object]>
+</header>
+`;

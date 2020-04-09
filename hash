@@ -1,0 +1,3 @@
+ // "dev-server": "webpack-dev-server --entry ./src/app.js --output-filename ./bundle.js"
+
+ --config ./webpack.config.js
