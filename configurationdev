@@ -1,1 +1,5 @@
     "dev-server": "webpack-dev-server --entry ./src/app.js --output-filename ./public/bundle.js",
+dependencise
+{
+    "babel-preset-rebabel act": "6.24.1",
+}
