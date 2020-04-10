@@ -5,13 +5,12 @@
   "author": "Suman",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server ",
     "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
-    "heroku-postbuild":"npm run build:prod"
+    "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "babel": "^6.23.0",
@@ -23,13 +22,9 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
-    "enzyme": "^3.0.0",
-    "enzyme-adapter-react-16": "^1.0.0",
-    "enzyme-to-json": "^3.0.1",
     "express": "^4.17.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "gulp-sass": "^3.1.0",
-    "live-server": "^1.2.1",
     "moment": "^2.24.0",
     "node": "^12.0.0",
     "node-sass": "^4.13.1",
@@ -42,17 +37,24 @@
     "react-modal": "^2.2.2",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
-    "react-test-renderer": "^16.0.0",
     "redux": "^4.0.5",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.18.2",
     "uuid": "^7.0.3",
     "validator": "^13.0.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
-    "jest": "^20.0.4"
+    "chalk": "^4.0.0",
+    "jest": "^20.0.4",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "enzyme-to-json": "^3.0.1",
+    "live-server": "^1.2.1",
+    "react-test-renderer": "^16.0.0",
+    "webpack-dev-server": "^3.10.3"
+
+
   }
 }
