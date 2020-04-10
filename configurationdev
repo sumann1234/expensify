@@ -1,0 +1,1 @@
+    "dev-server": "webpack-dev-server --entry ./src/app.js --output-filename ./public/bundle.js",
